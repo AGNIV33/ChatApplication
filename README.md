@@ -1,3 +1,5 @@
+# ✨ Full Stack Realtime Chat App ✨
+
 SIGNUP PAGE
 ![Screenshot 2025-01-05 003810](https://github.com/user-attachments/assets/7f0be010-06e4-4e48-b524-f41c0aa4dfe9)
 
@@ -10,3 +12,29 @@ CHAT PAGE
 PROFILE PAGE
 ![Screenshot 2025-01-05 003953](https://github.com/user-attachments/assets/db188df1-7bf3-4984-ad85-bab89fca8528)
 
+
+### Setup .env file
+
+```js
+MONGODB_URI=...
+PORT=5001
+JWT_SECRET=...
+
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+
+NODE_ENV=development
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
+```
